@@ -193,7 +193,7 @@ def analyze_person(self):
             goal_template = f"(?x) is {found_type.lower().replace(' ', '_')}"
             goal = goal_template.replace('(?x)', self.person_name)
             goal_tree = backward_chain(self.rules, goal, verbose=False)
-            print(f"🎯 Verification for {found_type}:")
+            print(f"   Verification for {found_type}:")
             print(f"   Goal: {goal}")
             print(f"   Tree: {goal_tree}")
 ```
@@ -379,7 +379,7 @@ def analyze_person(self):
 - **Consistent terminology** throughout
 - **Professional formatting** with emojis for clarity
 - **Progressive tense** for ongoing analysis
-- **Clear status indicators** (✅, 🔄, ⚪, 📊, 🎯)
+- **Clear status indicators** 
 
 ---
 
@@ -483,12 +483,12 @@ Does the person wear a neural headset? (yes/no): yes
 
 This expert system successfully implements all required tasks:
 
-✅ **Task 1**: 8 character types defined with comprehensive goal tree  
-✅ **Task 2**: Rules implemented using IF/AND/OR/THEN framework  
-✅ **Task 3**: Forward chaining with detailed examples  
-✅ **Task 4**: Backward chaining for goal verification  
-✅ **Task 5**: Three types of question generation systems  
-✅ **Task 6**: Interactive expert system with dual algorithm integration  
-✅ **Task 7**: Human-readable, grammatically correct output formatting  
+ **Task 1**: 8 character types defined with comprehensive goal tree  
+ **Task 2**: Rules implemented using IF/AND/OR/THEN framework  
+ **Task 3**: Forward chaining with detailed examples  
+ **Task 4**: Backward chaining for goal verification  
+ **Task 5**: Three types of question generation systems  
+ **Task 6**: Interactive expert system with dual algorithm integration  
+ **Task 7**: Human-readable, grammatically correct output formatting  
 
 The system provides an efficient, user-friendly interface for character detection in the Cyber-City environment while demonstrating both forward and backward chaining inference capabilities.
